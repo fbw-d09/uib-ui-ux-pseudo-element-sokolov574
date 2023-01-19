@@ -1,0 +1,147 @@
+body
+{
+    font-size: 16px;
+}
+div ul 
+{
+    font-size: 1.2rem;
+}
+
+
+.list1 ul li::before, li::after 
+{
+    background-image: url(./images/quotes.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    content: ' ';
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    display: inline-block;
+}
+
+
+
+
+.pdf > li
+{
+    
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-left: 40px; 
+    
+}
+
+.pdf a {
+    font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: blue;
+    text-decoration: none; 
+    margin-left: 40px; 
+}
+
+
+.pdf .icon1::after{
+    
+    background-image: url(./images/pdf.png);
+    background-repeat: no-repeat;
+    
+    display: inline-block;
+    content: ' ';
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-bottom: -20px;
+}
+
+.pdf .icon2::after 
+{
+    
+    background-image: url(./images/ms-excel.png);
+    background-repeat: no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-bottom: -20px;
+    
+    
+}
+
+
+
+.pdf .icon3::after 
+{
+    background-image: url(./images/ms-word.png);
+    background-repeat: no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-bottom: -20px;
+}
+
+.pdf .icon4::after 
+{
+    background-image: url(./images/ms-word.png);
+    background-repeat: no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-bottom: -20px;
+}
+
+.pdf .icon5::after 
+{
+    background-image: url(./images/pdf.png);
+    background-repeat: no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-bottom: -20px;
+}
+
+.burger .text {
+    
+    position: relative;
+    list-style-type: none;
+    font-size: 2rem;
+    border: 2px solid black;
+    width: 90vw;
+    padding:3rem 0;
+}
+
+.burger .text::before
+{
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top:0 ;
+  width: 100%;
+  height: 2rem;
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, 
+  rgba(105,121,9,1) 47%, 
+  rgba(2,0,36,1) 100%);
+  
+}
+
+.burger .text::after
+{
+  display: inline-block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+ left: 0;
+  width: 100%;
+  height: 2rem;
+  
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, 
+  rgba(105,121,9,1) 47%, 
+  rgba(0,212,255,1) 100%);
+  
+}
+
